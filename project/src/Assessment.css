@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+}
+.app{
+    background-color: rgb(102, 79, 79);
+     padding-top:50px;
+     height:100vh;
+    
+}
+.app1{
+    background-color: skyblue;
+    padding-top:50px;
+    height:150vh;
+}
+h1{
+    color:rgb(114, 114, 155);
+}

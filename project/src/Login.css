@@ -1,0 +1,99 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 15px;
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("banner-2.png")
+    center / cover no-repeat;
+}
+
+.admission-card {
+  width: 100%;
+  max-width: 360px;
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px #2225;
+}
+
+h2 {
+  color: #173653;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 13px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 1px solid #7c9f18;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 22px;
+  background: #7c9f18;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #638014;
+}
+
+.message {
+  font-size: 13px;
+  color: #285b21;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 400px) {
+  .admission-card {
+    padding: 18px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+}
